@@ -1,0 +1,6 @@
+name: zEnchantments
+author: Trixkz
+version: 1.0
+main: xyz.trixkz.zEnchantments.Main
+
+commands:

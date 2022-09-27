@@ -1,0 +1,113 @@
+debug: false
+
+Enchantments:
+  Efficiency:
+    Name: "&bEfficiency"
+    Lore:
+      - ""
+      - "&fBreak blocks faster."
+      - ""
+      - "&bLeft click &fto add &b+1 &fefficiency level"
+      - "&fto your pickaxe."
+      - ""
+      - "&bRight click &fto add &b+10 &fefficiency levels"
+      - "&fto your pickaxe."
+      - ""
+      - "&fLevel: &b(efficiency_level)"
+      - "&fPrice: &b(efficiency_price_left)"
+      - "&f+10 Levels: &b(efficiency_price_right)"
+  Fortune:
+    Name: "&bFortune"
+    Lore:
+      - ""
+      - "&fIncreased block drops."
+      - ""
+      - "&bLeft click &fto add &b+1 &ffortune level"
+      - "&fto your pickaxe."
+      - ""
+      - "&bRight click &fto add &b+10 &ffortune levels"
+      - "&fto your pickaxe."
+      - ""
+      - "&fLevel: &b(fortune_level)"
+      - "&fPrice: &b(fortune_price_left)"
+      - "&f+10 Levels: &b(fortune_price_right)"
+  Unbreaking:
+    Name: "&bUnbreaking"
+    Lore:
+      - ""
+      - "&fIncreased durability."
+      - ""
+      - "&bLeft click &fto add &b+1 &funbreaking level"
+      - "&fto your pickaxe."
+      - ""
+      - "&bRight click &fto add &b+10 &funbreaking levels"
+      - "&fto your pickaxe."
+      - ""
+      - "&fLevel: &b(unbreaking_level)"
+      - "&fPrice: &b(unbreaking_price_left)"
+      - "&f+10 Levels: &b(unbreaking_price_right)"
+  Haste:
+    Name: "&bHaste"
+    Lore:
+      - ""
+      - "&fIncreased swinging speed."
+      - ""
+      - "&bLeft click &fto add &b+1 &fhaste level"
+      - "&fto your pickaxe."
+      - ""
+      - "&bRight click &fto add &b+10 &fhaste levels"
+      - "&fto your pickaxe."
+      - ""
+      - "&fLevel: &b(haste_level)"
+      - "&fPrice: &b(haste_price_left)"
+      - "&f+10 Levels: &b(haste_price_right)"
+  Lucky-Block-Greed:
+    Name: "&bLucky Block Greed"
+  Explosive:
+    Name: "&bExplosive"
+  Speed:
+    Name: "&bSpeed"
+  Jump-Boost:
+    Name: "&bJump Boost"
+  Blessing:
+    Name: "Blessing"
+  Key-Greed:
+    Name: "&bKey Greed"
+  Token-Greed:
+    Name: "&bToken Greed"
+  Jack-Hammer:
+    Name: "&bJack Hammer"
+  Unbreakable:
+    Name: "&bUnbreakable"
+  Orb-Finder:
+    Name: "&bOrb Finder"
+
+Prefix: "&bPrison&3Core &7» "
+
+# /tokens
+Tokens-Command: "&fCurrent balance &7(&fTokens&7)&f: &b(tokens)"
+
+# /tokens help
+Tokens-Command-Help:
+  - "&8&m-----------------------------------------------------"
+  - "&bTokens Commands"
+  - "&8&m-----------------------------------------------------"
+  - " &8* &3/tokens &8(&7&oCheck your tokens.&8)"
+  - " &8* &3/tokens give <player> <amount> &8(&7&oGive the specified amount of tokens to a player.&8)"
+  - " &8* &3/tokens take <player> <amount> &8(&7&oTake the specified amount of tokens from a player.&8)"
+  - "&8&m-----------------------------------------------------"
+
+# /tokens give <player> <amount>
+Tokens-Command-Give-Player: "&bYou have successfully added &3(deposit_amount) &btoken(s) to &3(target)&b's tokens balance."
+Tokens-Command-Give-Target: "&3(deposit_amount) &btoken(s) have successfully been added to your tokens balance."
+
+# /tokens take <player> <amount>
+Tokens-Command-Take-No-Tokens: "&3(target) &bdoes not have that many tokens. &3(target) &bhas exactly &3(tokens) &btoken(s)."
+Tokens-Command-Take-Player: "&bYou have successfully took &3(withdraw_amount) &btoken(s) from &3(target) &b's tokens balance."
+Tokens-Command-Take-Target: "&3(withdraw_amount) &btoken(s) have successfully been taken from your tokens balance."
+
+# If the player is not currently online.
+Tokens-Command-Target-Is-Not-Online: "&3(target) &bis not currently online."
+
+# If the player does not have the specific "prisoncore.command.tokens" permission node.
+Tokens-Command-No-Permissions: "&cError: You do not have the sufficient permissions to execute this specific command."
